@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name = "colorPrimary">#373f4e</color>
+    <color name = "colorPrimaryDark">#202632</color>
+    <color name = "colorAccent">#7dc7ca</color>
+    <color name = "colorTextAccent">#607D8B</color>
+    <color name = "colorBottomNavBackground">#263238</color>
+    <color name = "colorTabText">#c3c6ca</color>
+    <color name = "colorTabSelected">#ffffff</color>
+    <color name = "colorBottomNavTabText">#90a4ae</color>
+    <color name = "colorTitleText">#ffffff</color>
+    <color name = "colorDescText">#7a7e87</color>
+    <color name = "colorContentText">#90a4ae</color>
+</resources>

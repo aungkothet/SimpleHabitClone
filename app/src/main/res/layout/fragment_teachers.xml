@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width = "wrap_content"
+    android:layout_height = "wrap_content"
+    android:layout_marginTop = "@dimen/margin_medium"
+    android:layout_marginBottom = "@dimen/margin_medium"
+    android:background = "@color/colorPrimaryDark"
+    android:orientation = "horizontal">
+
+    <ImageView
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:src = "@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_gravity = "center_vertical"
+        android:layout_marginStart = "@dimen/margin_medium_2"
+        android:orientation = "vertical">
+
+        <TextView
+            android:id = "@+id/tv_teacher_name"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:textColor = "@color/colorTitleText"
+            android:textSize = "@dimen/text_regular_2x"
+            android:textStyle = "bold"
+            tools:text = "Doresy Standish" />
+
+        <TextView
+            android:id = "@+id/tv_session"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:textColor = "@color/colorTextAccent"
+            tools:text = "12 sessions" />
+    </LinearLayout>
+
+</LinearLayout>

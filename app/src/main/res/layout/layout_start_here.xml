@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+    android:background = "@color/colorPrimaryDark"
+    android:orientation = "vertical">
+
+    <TextView
+        android:id = "@+id/textView2"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_marginBottom = "@dimen/margin_medium"
+        android:text = "Start Here"
+        android:textColor = "@color/colorTitleText"
+        android:textSize = "@dimen/text_heading_1x" />
+
+    <android.support.design.card.MaterialCardView
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        app:cardCornerRadius = "5dp">
+
+        <RelativeLayout
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content">
+
+            <ImageView
+                android:id = "@+id/img_starter_bg"
+                android:layout_width = "match_parent"
+                android:layout_height = "250dp"
+                android:scaleType = "centerCrop"
+                android:src = "@drawable/start_here" />
+
+            <LinearLayout
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:layout_centerInParent = "true"
+                android:gravity = "center"
+                android:orientation = "vertical">
+
+                <TextView
+                    android:id = "@+id/textView"
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:layout_marginBottom = "@dimen/margin_medium"
+                    android:text = "Simple Habit Starter"
+                    android:textAlignment = "center"
+                    android:textColor = "@color/colorTitleText"
+                    android:textSize = "24sp" />
+
+                <android.support.design.button.MaterialButton
+                    android:id = "@+id/btn_start"
+                    android:layout_width = "150dp"
+                    android:layout_height = "55dp"
+                    android:background = "@color/colorAccent"
+                    android:text = "Start"
+                    android:textAllCaps = "false"
+                    android:textColor = "@color/colorTitleText"
+                    android:textSize = "@dimen/text_regular_3x"
+                    app:cornerRadius = "20dp"
+                    app:icon = "@android:drawable/ic_media_play"
+                    app:iconGravity = "textStart" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:layout_alignRight = "@id/img_starter_bg"
+                android:layout_marginTop = "@dimen/margin_medium"
+                android:layout_marginEnd = "@dimen/margin_medium"
+                android:src = "@drawable/ic_add" />
+
+            <TextView
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:layout_alignEnd = "@id/img_starter_bg"
+                android:layout_alignBottom = "@id/img_starter_bg"
+                android:layout_marginEnd = "@dimen/margin_medium_2"
+                android:layout_marginBottom = "@dimen/margin_medium_2"
+                android:text = "5 mins"
+                android:textColor = "@color/colorTitleText" />
+        </RelativeLayout>
+
+    </android.support.design.card.MaterialCardView>
+
+</LinearLayout>
