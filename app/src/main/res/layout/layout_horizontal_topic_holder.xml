@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
     android:layout_width = "match_parent"
     android:layout_height = "wrap_content"
-    android:layout_marginTop = "@dimen/margin_xxlarge"
+    android:layout_marginTop = "@dimen/margin_large"
     android:background = "@color/colorPrimaryDark"
     android:orientation = "vertical">
 
@@ -10,7 +10,7 @@
         android:id = "@+id/tv_selected_topics"
         android:layout_width = "match_parent"
         android:layout_height = "wrap_content"
-        android:layout_marginBottom = "@dimen/margin_medium"
+        android:layout_marginBottom = "@dimen/margin_card_medium_2"
         android:textColor = "@color/colorTitleText"
         android:textSize = "@dimen/text_regular_3x" />
 

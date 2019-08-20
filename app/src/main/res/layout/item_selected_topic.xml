@@ -1,43 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
     xmlns:app = "http://schemas.android.com/apk/res-auto"
-    android:layout_width = "wrap_content"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width = "130dp"
     android:layout_height = "200dp"
-    android:layout_marginEnd="@dimen/margin_medium"
+    android:layout_marginEnd = "@dimen/margin_medium"
     android:background = "@color/colorPrimaryDark"
     android:orientation = "vertical">
 
-   <android.support.design.card.MaterialCardView
-       android:layout_width = "wrap_content"
-       android:layout_height = "wrap_content"
-       app:cardCornerRadius="5dp">
+    <android.support.design.card.MaterialCardView
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        app:cardCornerRadius = "5dp">
 
-       <RelativeLayout
-           android:layout_width = "match_parent"
-           android:layout_height = "wrap_content">
-           <ImageView
-               android:id = "@+id/img_topic_bg"
-               android:layout_width = "150dp"
-               android:layout_height = "150dp"
-               android:scaleType = "centerCrop"
-               app:srcCompat = "@drawable/selected_topic" />
+        <RelativeLayout
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content">
 
-           <ImageView
-               android:layout_width = "wrap_content"
-               android:layout_height = "wrap_content"
-               android:layout_alignRight = "@id/img_topic_bg"
-               android:layout_marginTop = "@dimen/margin_medium"
-               android:layout_marginEnd = "@dimen/margin_medium"
-               android:src = "@drawable/ic_add" />
-       </RelativeLayout>
+            <ImageView
+                android:id = "@+id/img_topic_bg"
+                android:layout_width = "130dp"
+                android:layout_height = "110dp"
+                android:scaleType = "centerCrop"
+                app:srcCompat = "@drawable/selected_topic" />
 
-   </android.support.design.card.MaterialCardView>
+            <ImageView
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:layout_alignRight = "@id/img_topic_bg"
+                android:layout_marginTop = "@dimen/margin_medium"
+                android:layout_marginEnd = "@dimen/margin_medium"
+                android:src = "@drawable/ic_add" />
+        </RelativeLayout>
+
+    </android.support.design.card.MaterialCardView>
 
     <TextView
         android:id = "@+id/tv_topic_title"
         android:layout_width = "match_parent"
         android:layout_height = "wrap_content"
-        android:layout_marginTop="@dimen/margin_medium"
+        android:layout_marginTop = "@dimen/margin_medium"
         android:textColor = "@color/colorTitleText"
         android:textSize = "@dimen/text_regular_2x" />
 
